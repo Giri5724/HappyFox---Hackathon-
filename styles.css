@@ -1,0 +1,221 @@
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+@media print{
+  h1{
+    color: yellow;
+  }
+}
+@media print and (orientation:landscape){
+  h1{
+    color: purple
+  }
+}
+@media screen and (max-width:600px){
+  h1{
+    color: brown;
+  }
+  
+}
+
+
+
+nav {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    max-width: 100px;
+    margin-right: 10px;
+    /* /* position: sticky; */
+} 
+
+
+ul {
+    display: flex;
+    margin-top: 0;
+    margin-left: auto;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+}
+
+
+.cont {
+    position: relative;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px; 
+
+}
+.cont .text {
+    position: relative;
+    max-width: 600px;
+}
+.cont .text h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+.cont .text span{
+    color: green;
+    font-weight: 900;
+}
+
+
+.img1 {
+    max-width: 400px;
+    height: auto;
+    margin-left: 40px; 
+}
+nav .star{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+    margin-left: 400PX;
+    margin-top: 20px;
+}
+nav ul li:hover a {
+    color: #0073e6; 
+    text-decoration: underline; 
+}
+.cont .text a{
+    background-color: green;
+    transition: background-color 0.3s, color 0.3s;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 8px 20px;
+    display: inline;
+} 
+.cont .text:hover a{
+    color: #fff; 
+    background-color: #0073e6; 
+    border-radius: 40px;
+  }
+  .cont .img1{
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 0px;
+  }
+  .cont .img1{
+    max-width: 340px;
+  }
+  .circle{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: green;
+    clip-path: circle(680px at right 900px);
+    margin-top: 120px;
+    
+    
+  }
+  .small{
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    top: 80%;
+    gap: 40px;
+    margin-left: 0%;
+    
+  }
+  .small li:hover{
+    transform: scale(1.1);
+  }
+  /* .social{
+    list-style: none;
+   
+  }
+  .social li{
+    margin-bottom: 10px;
+    display: block;
+  }
+  .social a img{
+    display: block;
+  } */
+   /* Reset the default list and link styling */
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    margin-right: 50px;
+    /* align-items: flex-start; /* Align items to the left */
+} */
+
+.social li {
+    /* margin-bottom: 10px; */
+    display: block;
+    margin-right: 0;
+}
+
+.social a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    margin-right: 0;
+}
+
+.social a img {
+    display: block;
+    width: 24px; /* Adjust as needed for image size */
+    height: auto;
+    margin-right: 0;
+    
+}
+
+
+  nav ul li:hover a {
+    background-color: green;
+    transition: background-color 0.3s, color 0.3s;
+    letter-spacing: 2px;
+    color: black;
+    
+    border-radius: 40px;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 8px 20px;
+    display: inline;
+
+  }
+.input{
+    margin-left: 80%;
+    top: 20px;
+    border-width: 2px;
+    margin-top: 0;
+    width: 20%;
+}
+
